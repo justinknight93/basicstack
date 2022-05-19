@@ -1,0 +1,28 @@
+.separator {
+    width: 100%;
+    border-top: 1px solid var(--border-color-softer);
+    margin-bottom: 2rem;
+}
+
+.small-separator {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid var(--border-color-softer);
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color-softer);
+}
+
+br {
+    display: block;
+    margin: 1rem 0;
+}

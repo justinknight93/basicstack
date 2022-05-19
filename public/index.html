@@ -1,0 +1,95 @@
+<html>
+  <html lang="en">
+    <head>
+      <!-- Meta -->
+      <meta charset="utf-8" />
+      <title>Basic Stack</title>
+      <meta name="description" content="A basic HTML JS CSS app" />
+      <meta name="author" content="Justin Knight" />
+      <meta name="color-scheme" content="dark light" />
+
+      <!-- Mobile Specific -->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <!-- Font -->
+      <link
+        href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+        rel="stylesheet"
+        type="text/css"
+      />
+
+      <!-- CSS -->
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/skeleton-legacy.css" />
+      <link rel="stylesheet" href="css/barebones.css" />
+      <link rel="stylesheet" href="css/custom.css" />
+    </head>
+    <body>
+      <div class="container">
+        <section class="header">
+          <h1 class="accent">Basic Stack</h1>
+        </section>
+        <div class="separator"></div>
+        <section class="body">
+          <h3 class="title">A simple boilerplate</h3>
+          <p>
+            This is a website I put together so I can jump right into using my
+            favorite tech stack. It's a simple HTML, CSS, and JS app with a node
+            server. Below are some built-in features:
+          </p>
+          <div class="small-separator"></div>
+          <h5>Example API</h5>
+          <!-- This next tag uses data-api-inner to get inner HTML from the api. -->
+          <div data-api-inner="body"></div>
+          <div class="small-separator"></div>
+          <h5>Image styling</h5>
+          <div class="container">
+            Look at this guy. This is how I prefer to display images.
+            <img class="image" src="images/cat.png" />
+          </div>
+          <div class="small-separator"></div>
+          <h5>Colors</h5>
+          <p>Text and buttons can use these colors.</p>
+          <div class="grid-container quarters">
+            <p class="success">SUCCESS</p>
+            <p class="warning">WARNING</p>
+            <p class="error">ERROR</p>
+            <p class="info">INFO</p>
+          </div>
+          <div class="grid-container quarters">
+            <button class="button">Button Basic</button>
+            <button class="button button-primary">Button Primary</button>
+          </div>
+          <div class="grid-container quarters">
+            <button class="button button-success">Button Success</button>
+            <button class="button button-warning">Button Warning</button>
+            <button class="button button-error">Button Error</button>
+            <button class="button button-info">Button Info</button>
+          </div>
+          <div class="small-separator"></div>
+          <h5>Links</h5>
+          <li>
+            <a href="https://acahir.github.io/Barebones/">
+              Styled with Barebones
+            </a>
+          </li>
+          <li>
+            <a href="https://expressjs.com/">Served with Express</a>
+          </li>
+          <br />
+        </section>
+        <div class="separator"></div>
+        <section class="footer">
+          <div class="grid-container halves">
+            <div class="u-align-left">
+              Viewed: <span data-api-inner="viewCount"></span> times since the
+              server started.
+            </div>
+            <div class="u-align-right">By Justin Knight</div>
+          </div>
+        </section>
+      </div>
+      <script src="js/app.js"></script>
+    </body>
+  </html>
+</html>
